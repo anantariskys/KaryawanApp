@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:background="@color/white"
+    android:elevation="4dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingVertical="12dp"
+        android:paddingHorizontal="16dp">
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvNama"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nama Karyawan"
+                android:textColor="@color/primary"
+                android:textSize="18sp"
+                android:textStyle="bold" /> <!-- Warna nama karyawan -->
+
+            <TextView
+                android:id="@+id/tvPosisi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Posisi"
+                android:textColor="@color/secondary" /> <!-- Warna posisi -->
+
+            <TextView
+                android:id="@+id/tvGaji"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gaji"
+                android:textColor="@color/tertiary" /> <!-- Warna gaji -->
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnUpdate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:background="@color/primary"
+                android:paddingHorizontal="32dp"
+                android:text="Update"
+                android:textColor="@color/white"
+
+                />
+
+            <Button
+                android:id="@+id/btnHapus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/primary_dark"
+                android:gravity="center"
+                android:paddingHorizontal="32dp"
+                android:text="Hapus"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

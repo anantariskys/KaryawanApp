@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#6200EE</color>  <!-- Ubah ke kode warna primary yang Anda inginkan -->
+    <color name="primary_dark">#3700B3</color>
+    <color name="primary_light">#BB86FC</color>
+    <color name="secondary">#03DAC5</color>  <!-- Ubah ke kode warna secondary yang Anda inginkan -->
+    <color name="tertiary">#FFBB86FC</color> <!-- Ubah ke kode warna tertiary yang Anda inginkan -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="gray">#808080</color>
+</resources>
